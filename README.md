@@ -6,7 +6,7 @@ This project functions as a logistical control tower dashboard designed to monit
 Complete Interactive Project Visuals
 Below is the live execution mapping of the multi-page control tower dashboard built inside our operational cloud framework:
 
-![Supply Chain Control Tower Dashboard]([https://github.com](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232))
+![Supply Chain Control Tower Dashboard](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232)
 
 
 
