@@ -26,7 +26,7 @@ The database structure is engineered using a professional relational Star Schema
 * **Fact_orders (Core Transactions):** Stores operational delivery metrics, volumes, and regional distribution hub data.
 * **Dim_Carriers (Logistics Context):** Stores courier names, transit modes, and SLA agreements.
 * **Dim_Products (Product Catalog):** Tracks storage conditions (Cold Chain, Ambient, Hazardous) and costs.
-### 📋 Sample Database Record Ledger (Fact_orders)
+### Sample Database Record Ledger (Fact_orders)
 This layout mirrors how the raw transactions sit inside the repository dataset:
 
 Complete Project Datasets
