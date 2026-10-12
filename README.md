@@ -7,6 +7,9 @@ Complete Interactive Project Visuals
 Below is the live execution mapping of the multi-page control tower dashboard built inside our operational cloud framework:
 
 ![Supply Chain Control Tower Dashboard](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232)
+### 🌐 Live Interactive Database Environment
+You can run and test this relational database architecture live in your browser here:
+[Executed Live SQL Queries on DB Fiddle]((https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/0))
 
 
 
