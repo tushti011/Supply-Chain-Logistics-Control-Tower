@@ -1,22 +1,20 @@
 End-to-End Supply Chain Fulfillment & Logistics Control Tower
 
-Project Overview
-This project functions as a logistical control tower dashboard designed to monitor global shipment timelines, evaluate third-party logistics (3PL) fulfillment, and mitigate inventory stockout risks. Built entirely in a cloud ecosystem (Microsoft Fabric / Power BI Web) to bypass local OS hardware restrictions.
+Project Overview:
+This project functions as a logistical control tower dashboard designed to monitor global shipment timelines, evaluate third-party logistics (3PL) fulfillment, and mitigate inventory stockout risks. Tools used: Power BI, SQL, Jira.
 
-Below is the screenshots from visual dashboards made with Power BI:
-
+### Power BI: (Screenshots)
 [Supply Chain Control Tower Dashboard](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232)
+
 ### SQL Data:
-[Execute Live SQL Queries on DB Fiddle](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/2)
+[SQL on DB Fiddle](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/2)
 
-## Jira Workflow
-
+## Jira Workflow:
 All supply chain bottlenecks identified by the SQL query layer are routed through **Jira**. Instead of making phone calls or sending manual emails to warehouses, issues are tracked entirely through system status updates.
 
-### Jira:
 [Jira Board](https://tushtigupta.atlassian.net/jira/software/projects/KAN/boards/2?filter=&groupBy=none)
 
-### The System Exception Lifecycle:
+### Jira Lifecycle:
 1. **`TO DO` (New Alert - LDO-1002):** A 200-unit shipment deficit at the Chennai Hub is auto-flagged by the SQL database query and sits in the queue waiting for analysis.
 2. **`IN PROGRESS` (Active Fix - LDO-1010):** A BlueDart delivery deadline breach at the Mumbai Hub is actively being triaged and re-routed in the database to beat an SLA penalty.
 3. **`DONE / RESOLVED` (Closed File - LDO-1004):** Hazardous manifest verification for a batch of battery packs is cleared and locked. The cargo is safely moving on the road ("In-Transit"), requiring no further desk intervention.
@@ -41,7 +39,7 @@ The database structure is engineered using a professional relational Star Schema
 ### Sample Database Record Ledger (Fact_orders)
 This layout mirrors how the raw transactions sit inside the repository dataset:
 
-Complete Project Datasets
+Complete Project Datasets:
 
 ### 1. Master Shipping Ledger (`Fact_orders`)
 *This core ledger tracks daily shipping logs, volumetric workloads, and delivery timestamps.*
