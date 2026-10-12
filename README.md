@@ -11,7 +11,6 @@ This project functions as a logistical control tower dashboard designed to monit
 
 ## Jira Workflow:
 
-All supply chain bottlenecks identified by the SQL query layer are routed through **Jira**. Instead of making phone calls or sending manual emails to warehouses, issues are tracked entirely through system status updates.
 
 [Jira Board](https://tushtigupta.atlassian.net/jira/software/projects/KAN/boards/2?filter=&groupBy=none)
 
