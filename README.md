@@ -1,4 +1,4 @@
-Project Overview:
+### **Project Overview:**
 This project functions as a logistical control tower dashboard designed to monitor global shipment timelines, evaluate third-party logistics (3PL) fulfillment, and mitigate inventory stockout risks. Tools used: Power BI, SQL, Jira.
 
 ### Power BI: (Screenshots)
