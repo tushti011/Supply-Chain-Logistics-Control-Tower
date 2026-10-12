@@ -10,7 +10,7 @@ This project functions as a logistical control tower dashboard designed to monit
 ### Jira Workflow:
 All supply chain bottlenecks identified by the SQL query layer are routed through **Jira**. Instead of making phone calls or sending manual emails to warehouses, issues are tracked entirely through system status updates.
 
-[Jira Board](https://tushtigupta.atlassian.net/jira/software/projects/KAN/boards/2?filter=&groupBy=none)
+[Jira Board](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/blob/main/Jira.png)
 
 ### Jira Lifecycle:
 1. **`TO DO` (New Alert - LDO-1002):** A 200-unit shipment deficit at the Chennai Hub is auto-flagged by the SQL database query and sits in the queue waiting for analysis.
