@@ -8,7 +8,7 @@ Below is the live execution mapping of the multi-page control tower dashboard bu
 
 ![Supply Chain Control Tower Dashboard](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232)
 ### SQL Data:
-[Execute Live SQL Queries on DB Fiddle]([[https://db-fiddle.com](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/2](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/2))
+[Execute Live SQL Queries on DB Fiddle](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/2)
 
 
 
