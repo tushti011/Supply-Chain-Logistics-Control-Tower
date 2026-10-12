@@ -8,7 +8,7 @@ Below is the live execution mapping of the multi-page control tower dashboard bu
 
 ![Supply Chain Control Tower Dashboard](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232)
 ### SQL Data:
-![SQL Database]([https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/0))
+![SQL Database](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/0](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/1))
 
 
 Dashboard Page Breakdown & Operational Value
