@@ -3,10 +3,9 @@ End-to-End Supply Chain Fulfillment & Logistics Control Tower
 Project Overview
 This project functions as a logistical control tower dashboard designed to monitor global shipment timelines, evaluate third-party logistics (3PL) fulfillment, and mitigate inventory stockout risks. Built entirely in a cloud ecosystem (Microsoft Fabric / Power BI Web) to bypass local OS hardware restrictions.
 
-Complete Interactive Project Visuals
-Below is the live execution mapping of the multi-page control tower dashboard built inside our operational cloud framework:
+Below is the screenshots from visual dashboards made with Power BI:
 
-![Supply Chain Control Tower Dashboard](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232)
+[Supply Chain Control Tower Dashboard](https://github.com/tushti011/Supply-Chain-Logistics-Control-Tower/issues/1#issue-5779946232)
 ### SQL Data:
 [Execute Live SQL Queries on DB Fiddle](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/2)
 
@@ -14,8 +13,8 @@ Below is the live execution mapping of the multi-page control tower dashboard bu
 
 All supply chain bottlenecks identified by the SQL query layer are routed through **Jira**. Instead of making phone calls or sending manual emails to warehouses, issues are tracked entirely through system status updates.
 
-### Live System Triage Dashboard View:
-[Jira Service Management Operations Board]((https://tushtigupta.atlassian.net/jira/software/projects/KAN/settings/access))
+### Jira:
+[Jira Board](https://tushtigupta.atlassian.net/jira/software/projects/KAN/settings/access)
 
 ### The System Exception Lifecycle:
 1. **`TO DO` (New Alert - LDO-1002):** A 200-unit shipment deficit at the Chennai Hub is auto-flagged by the SQL database query and sits in the queue waiting for analysis.
