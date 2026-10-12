@@ -15,7 +15,7 @@ Below is the live execution mapping of the multi-page control tower dashboard bu
 All supply chain bottlenecks identified by the SQL query layer are routed through **Jira**. Instead of making phone calls or sending manual emails to warehouses, issues are tracked entirely through system status updates.
 
 ### Live System Triage Dashboard View:
-![Jira Service Management Operations Board](jira_board.png)
+[Jira Service Management Operations Board]([jira_board.png](https://tushtigupta.atlassian.net/jira/software/projects/KAN/settings/access))
 
 ### The System Exception Lifecycle:
 1. **`TO DO` (New Alert - LDO-1002):** A 200-unit shipment deficit at the Chennai Hub is auto-flagged by the SQL database query and sits in the queue waiting for analysis.
