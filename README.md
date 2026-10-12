@@ -10,6 +10,17 @@ Below is the live execution mapping of the multi-page control tower dashboard bu
 ### SQL Data:
 [Execute Live SQL Queries on DB Fiddle](https://www.db-fiddle.com/f/mKxTPqc6i6s3LpW8KCqHAu/2)
 
+## Jira Workflow
+
+All supply chain bottlenecks identified by the SQL query layer are routed through **Jira**. Instead of making phone calls or sending manual emails to warehouses, issues are tracked entirely through system status updates.
+
+### Live System Triage Dashboard View:
+![Jira Service Management Operations Board](jira_board.png)
+
+### The System Exception Lifecycle:
+1. **`TO DO` (New Alert - LDO-1002):** A 200-unit shipment deficit at the Chennai Hub is auto-flagged by the SQL database query and sits in the queue waiting for analysis.
+2. **`IN PROGRESS` (Active Fix - LDO-1010):** A BlueDart delivery deadline breach at the Mumbai Hub is actively being triaged and re-routed in the database to beat an SLA penalty.
+3. **`DONE / RESOLVED` (Closed File - LDO-1004):** Hazardous manifest verification for a batch of battery packs is cleared and locked. The cargo is safely moving on the road ("In-Transit"), requiring no further desk intervention.
 
 
 Dashboard Page Breakdown & Operational Value
